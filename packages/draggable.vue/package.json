@@ -11,6 +11,10 @@
     "draggable",
     "sort"
   ],
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:jiebaomaster/particlesJS.git"
+  },
+  "author": "jiebaomaster@gmail.com",
   "license": "MIT"
 }
