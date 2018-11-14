@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>test vue</title>
+  <style>
+    ul {
+      list-style-type: none;
+    }
+
+    li {
+      text-align: left;
+      padding-left: 20px;
+      margin: 20px 0;
+      background-color: antiquewhite;
+      /*cursor: move;*/
+    }
+  </style>
+</head>
+
+<body>
+  <div id="app">
+    <h4>test ul</h4>
+    <draggable :list='list' :element='"ul"'>
+      <li v-for='item in list' :key='item'>
+        <span>{{item}}</span>
+      </li>
+    </draggable>
+    <hr>
+    <h4>test table</h4>
+    <table>
+      <thead></thead>
+      <draggable :list='list' :element='"tbody"'>
+        <tr v-for='item in list' :key='item'>
+          <td>{{ item }}</td>
+        </tr>
+      </draggable>
+    </table>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+  <script src="../lib/index.js"></script>
+  <script>
+    var app = new Vue({
+      el: '#app',
+      data: {
+        list: ["apple", "banana", "pinapple", "grape", "strawberry", 'odd', 'pair']
+      }
+    })
+  </script>
+</body>
+
+</html>
