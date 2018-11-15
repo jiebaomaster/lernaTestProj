@@ -18,6 +18,10 @@
       background-color: antiquewhite;
       /*cursor: move;*/
     }
+
+    .flip-list-move {
+      transition: transform 1s;
+    }
   </style>
 </head>
 
@@ -39,6 +43,15 @@
         </tr>
       </draggable>
     </table>
+    <hr>
+    <h4>test transition-group</h4>
+    <draggable :list='list' :element='"ul"'>
+      <transition-group name='flip-list'>
+        <li v-for='item in list' :key='item'>
+          <span>{{item}}</span>
+        </li>
+      </transition-group>
+    </draggable>
   </div>
 
   <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>

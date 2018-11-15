@@ -25,8 +25,25 @@ const draggable = {
       default: 'div'
     }
   },
+  data () {
+    return {
+      transitionMode: false // 是否使用transition组件
+    }
+  },
+  computed: {
+    rootElement () { // 根元素
+      return this.transitionMode ? this.$el.childNodes[0] : this.$el
+    }
+  },
   render (createElement) {
-    return createElement(this.element, this.$slots.default)
+    let defaultSlot = this.$slots.default
+    if (defaultSlot && defaultSlot.length === 1) {
+      let childNode = defaultSlot[0]
+      if(childNode.componentOptions && childNode.componentOptions.tag === 'transition-group') {
+        this.transitionMode = true
+      }
+    }
+    return createElement(this.element, defaultSlot)
   },
   mounted () {
     let supportDraggable = ('draggable' in document.createElement('div'))
@@ -36,7 +53,7 @@ const draggable = {
     }
 
     let draggingIndex = -1
-    let rootElement = this.$el  // 根元素
+    let rootElement = this.rootElement  // 根元素
 
     Array.prototype.forEach.call(rootElement.childNodes, item => {
       // 设置draggable属性
