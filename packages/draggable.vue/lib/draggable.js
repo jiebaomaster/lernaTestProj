@@ -45,7 +45,7 @@ const draggable = {
         this.transitionMode = true
       }
     }
-    return this.element ? h(this.element, defaultSlot) : defaultSlot[0]
+    return h(this.tag, defaultSlot)
   },
   methods: {
     dragStart ($event) { // 开始拖拽，记录拖拽行的初始索引

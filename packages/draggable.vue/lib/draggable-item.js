@@ -5,12 +5,16 @@ const draggableItem = {
     tag: { // 包裹元素
       type: String,
       default: 'div'
+    },
+    draggableFlag: {
+      type: Boolean,
+      default: true
     }
   },
   render(h) {
-    return h(this.element, {
+    return h(this.tag, {
       domProps: {
-        draggable: true
+        draggable: this.draggableFlag
       },
       on: {
         dragstart: this.handleDragStart,

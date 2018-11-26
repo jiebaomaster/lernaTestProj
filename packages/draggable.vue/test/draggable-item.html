@@ -54,6 +54,15 @@
         </draggable-item>
       </transition-group>
     </draggable>
+    <hr>
+    <h4>test params control draggable</h4>
+    <button type="button" @click='toggleDraggable'>toggle draggable</button>
+    <span>now: {{ draggableFlag }} </span>
+    <draggable :list='list' :tag='"ul"'>
+      <draggable-item v-for='item in list' :key='item' :tag='"li"' :draggable-flag='draggableFlag'>
+        <span>{{item}}</span>
+      </draggable-item>
+    </draggable>
   </div>
 
   <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
@@ -63,7 +72,13 @@
     var app = new Vue({
       el: '#app',
       data: {
-        list: ["apple", "banana", "pinapple", "grape", "strawberry", 'odd', 'pair']
+        list: ["apple", "banana", "pinapple", "grape", "strawberry", 'odd', 'pair'],
+        draggableFlag: false
+      },
+      methods: {
+        toggleDraggable () { // 切换是否可拖拽
+          this.draggableFlag = !this.draggableFlag
+        }
       }
     })
   </script>
