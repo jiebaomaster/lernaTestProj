@@ -4,7 +4,7 @@
   "description": "Vue component allowing drag-and-drop sorting in sync with View-Model",
   "main": "lib/index.js",
   "scripts": {
-    "test": "browser-sync start --server --startPath \"test\" --files \"*/*.html\""
+    "dev": "browser-sync start --server --startPath \"test\" --files \"*/*.html\""
   },
   "keywords": [
     "Vuejs",

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>draggale-item</title>
+  <style>
+    ul {
+      list-style-type: none;
+    }
+
+    li {
+      text-align: left;
+      padding-left: 20px;
+      margin: 20px 0;
+      background-color: antiquewhite;
+      /*cursor: move;*/
+    }
+
+    .flip-list-move {
+      transition: transform 1s;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="app">
+    <h4>test ul</h4>
+    <draggable :list='list' :tag='"ul"'>
+      <draggable-item v-for='item in list' :key='item' :tag='"li"'>
+        <span>{{item}}</span>
+      </draggable-item>
+    </draggable>
+    <hr>
+    <!-- render 渲染时根元素必须是单一的，这里draggable中有循环的多个元素，所以draggable必须渲染一个包裹的元素，故以下情况不可实现 -->
+    <!--
+    <h4>test draggable render nothing</h4>
+    <ul>
+      <draggable :list='list'>
+        <draggable-item v-for='item in list' :key='item' :element='"li"'>
+          <span>{{item}}</span>
+        </draggable-item>
+      </draggable>
+    </ul>
+    <hr>
+    -->
+    <h4>test transition-group</h4>
+    <draggable :list='list' :tag='"ul"'>
+      <transition-group name='flip-list'>
+        <draggable-item v-for='item in list' :key='item' :tag='"li"'>
+          <span>{{item}}</span>
+        </draggable-item>
+      </transition-group>
+    </draggable>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+  <script src="../lib/draggable.js"></script>
+  <script src="../lib/draggable-item.js"></script>
+  <script>
+    var app = new Vue({
+      el: '#app',
+      data: {
+        list: ["apple", "banana", "pinapple", "grape", "strawberry", 'odd', 'pair']
+      }
+    })
+  </script>
+</body>
+
+</html>
