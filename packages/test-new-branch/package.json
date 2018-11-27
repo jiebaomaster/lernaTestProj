@@ -26,5 +26,6 @@
   "dependencies": {
     "@types/chai": "^4.1.0",
     "babel-eslint": "^10.0.1"
-  }
+  },
+  "gitHead": "66e12671d25748b0f81b776b07704bffed3c9b0e"
 }
