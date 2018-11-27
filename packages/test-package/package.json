@@ -1,6 +1,6 @@
 {
   "name": "@jbmasterlerna/test-lerna-packages",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -9,7 +9,7 @@
   "dependencies": {
     "babel-eslint": "^10.0.1"
   },
-    "publishConfig": {
+  "publishConfig": {
     "access": "public"
   },
   "author": "",
