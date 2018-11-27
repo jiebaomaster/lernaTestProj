@@ -1,6 +1,6 @@
 {
   "name": "@jbmasterlerna/test-new-branch",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "> TODO: description",
   "author": "chenjiehong <chenjiehong@epiclouds.net>",
   "homepage": "https://github.com/jiebaomaster/lernaTestProj#readme",
@@ -24,7 +24,7 @@
     "url": "https://github.com/jiebaomaster/lernaTestProj/issues"
   },
   "dependencies": {
-    "babel-eslint": "^10.0.1",
-    "@types/chai": "^4.1.0"
+    "@types/chai": "^4.1.0",
+    "babel-eslint": "^10.0.1"
   }
 }
