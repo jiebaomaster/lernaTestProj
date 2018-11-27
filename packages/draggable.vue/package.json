@@ -15,7 +15,9 @@
     "type": "git",
     "url": "git@github.com:jiebaomaster/cf-vue-draggable.git"
   },
+    "publishConfig": {
+    "access": "public"
+  },
   "author": "jiebaomaster@gmail.com",
-  "license": "MIT",
-  "gitHead": "66e12671d25748b0f81b776b07704bffed3c9b0e"
+  "license": "MIT"
 }
