@@ -1,0 +1,26 @@
+{
+  "name": "test-package-2",
+  "version": "1.0.0",
+  "description": "> TODO: description",
+  "author": "chenjiehong <chenjiehong@epiclouds.net>",
+  "homepage": "https://github.com/jiebaomaster/lernaTestProj#readme",
+  "license": "ISC",
+  "main": "lib/test-package-2.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jiebaomaster/lernaTestProj.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/jiebaomaster/lernaTestProj/issues"
+  }
+}
