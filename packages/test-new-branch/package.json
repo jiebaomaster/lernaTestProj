@@ -24,6 +24,7 @@
     "url": "https://github.com/jiebaomaster/lernaTestProj/issues"
   },
   "dependencies": {
+    "@jbmasterlerna/test-package-2": "^1.2.0",
     "@types/chai": "^4.1.0",
     "babel-eslint": "^10.0.1"
   },
