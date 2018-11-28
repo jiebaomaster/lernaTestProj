@@ -3,5 +3,5 @@
 module.exports = sayHello;
 
 function sayHello() {
-	console.log('hello word')
+	console.log('hello word', 'do something!')
 }
