@@ -134,12 +134,12 @@ var es6_promise_ = __webpack_require__(2);
 // EXTERNAL MODULE: external "core-js/modules/es7.promise.finally"
 var es7_promise_finally_ = __webpack_require__(3);
 
-// CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/pug-plain-loader!./node_modules/vue-loader/lib??vue-loader-options!./src/components/Select.vue?vue&type=template&id=6f9538d7&lang=pug&
-var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"dropdown btn-group",class:{ show: _vm.visible && !_vm.disabled },on:{"keydown":[function($event){if(!('button' in $event)&&_vm._k($event.keyCode,"down",40,$event.key,["Down","ArrowDown"])){ return null; }$event.preventDefault();$event.stopPropagation();_vm.navigateOptions('next')},function($event){if(!('button' in $event)&&_vm._k($event.keyCode,"up",38,$event.key,["Up","ArrowUp"])){ return null; }$event.preventDefault();$event.stopPropagation();_vm.navigateOptions('prev')},function($event){if(!('button' in $event)&&_vm._k($event.keyCode,"enter",13,$event.key,"Enter")){ return null; }$event.preventDefault();$event.stopPropagation();return _vm.handleKeyUpEnter($event)}]}},[_c('button',{ref:"selectButton",staticClass:"btn btn-outline-dark dropdown-toggle",attrs:{"type":"button","disabled":_vm.disabled},on:{"click":function($event){$event.preventDefault();$event.stopPropagation();return _vm.toggleOpen($event)}}},[_c('span',{staticClass:"mr-1"},[_vm._v(_vm._s(_vm.defaultValue || '请选择'))])]),_c('div',{staticClass:"dropdown-menu",class:{ show: _vm.visible && !_vm.disabled }},_vm._l((_vm.options),function(option,index){return _c('a',{staticClass:"dropdown-item",class:{ "hover": _vm.hoverIndex === index },attrs:{"href":"#"},on:{"click":function($event){$event.stopPropagation();_vm.selectOption(option)}}},[_vm._v(_vm._s(option))])}))])}
+// CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/pug-plain-loader!./node_modules/vue-loader/lib??vue-loader-options!./src/components/Select.vue?vue&type=template&id=5892dc3c&lang=pug&
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"dropdown btn-group",class:{ show: _vm.visible && !_vm.disabled },on:{"keydown":[function($event){if(!('button' in $event)&&_vm._k($event.keyCode,"down",40,$event.key,["Down","ArrowDown"])){ return null; }$event.preventDefault();$event.stopPropagation();_vm.navigateOptions('next')},function($event){if(!('button' in $event)&&_vm._k($event.keyCode,"up",38,$event.key,["Up","ArrowUp"])){ return null; }$event.preventDefault();$event.stopPropagation();_vm.navigateOptions('prev')},function($event){if(!('button' in $event)&&_vm._k($event.keyCode,"enter",13,$event.key,"Enter")){ return null; }$event.preventDefault();$event.stopPropagation();return _vm.handleKeyUpEnter($event)}]}},[_c('button',{ref:"selectButton",staticClass:"btn btn-outline-dark dropdown-toggle",attrs:{"type":"button","disabled":_vm.disabled},on:{"click":function($event){$event.preventDefault();$event.stopPropagation();return _vm.toggleOpen($event)}}},[_c('span',{staticClass:"mr-1"},[_vm._v(_vm._s(_vm.selectValue || '请选择'))])]),_c('div',{staticClass:"dropdown-menu",class:{ show: _vm.visible && !_vm.disabled }},_vm._l((_vm.options),function(option,index){return _c('a',{staticClass:"dropdown-item",class:{ active: _vm.hoverIndex === index },attrs:{"href":"#"},on:{"click":function($event){$event.stopPropagation();_vm.selectOption(option)}}},[_vm._v(_vm._s(option))])}))])}
 var staticRenderFns = []
 
 
-// CONCATENATED MODULE: ./src/components/Select.vue?vue&type=template&id=6f9538d7&lang=pug&
+// CONCATENATED MODULE: ./src/components/Select.vue?vue&type=template&id=5892dc3c&lang=pug&
 
 // EXTERNAL MODULE: external "core-js/modules/es6.array.find-index"
 var es6_array_find_index_ = __webpack_require__(4);
@@ -179,6 +179,7 @@ var es6_array_find_index_ = __webpack_require__(4);
   },
   data: function data() {
     return {
+      selectValue: '',
       hoverIndex: -1,
       // 鼠标或方向键选择的选项的Index
       visible: false // 下拉选项是否可见
@@ -220,6 +221,7 @@ var es6_array_find_index_ = __webpack_require__(4);
      * @param {string} option - 点击的选项
      */
     selectOption: function selectOption(option) {
+      this.selectValue = option;
       this.$emit('select-option', option);
       this.visible = false;
     },
