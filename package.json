@@ -1,7 +1,13 @@
 {
   "name": "root",
   "private": true,
+  "scripts": {
+    "newpackage": "cd ./packages && vue create -n",
+    "release": "node ./script/release.js",
+    "bootstrap": "lerna bootstrap --hoist"
+  },
   "devDependencies": {
-    "lerna": "^3.4.3"
+    "lerna": "^3.4.3",
+    "execa": "^1.0.0"
   }
 }
