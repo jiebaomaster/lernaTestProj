@@ -1,6 +1,9 @@
 lerna-debug.log
+package-lock.json
+node_modules/
+.nyc_output/
+coverage/
+
 packages/*/node_modules/
 packages/*/package-lock.json
-node_modules/
-package-lock.json
-packages/@jbmasterlerna/*/node_modules/
+packages/*/lib/
