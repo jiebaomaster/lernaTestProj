@@ -3,7 +3,7 @@
   "private": true,
   "scripts": {
     "newpackage": "cd ./packages && vue create -n",
-    "release": "node ./script/release.js",
+    "release": "node ./script/release.js && lerna publish",
     "bootstrap": "lerna bootstrap --hoist"
   },
   "devDependencies": {

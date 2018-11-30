@@ -22,9 +22,6 @@ const release = async () => {
   ])
   console.log('> ', lerna_exec_result.cmd)
   console.log(lerna_exec_result.stdout)
-
-  // 使用lerna publish发布
-  await execa('lerna', ['publish'])
 }
 
 release().catch(err => {
