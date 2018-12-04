@@ -2,13 +2,14 @@
   "name": "root",
   "private": true,
   "scripts": {
-    "newpackage": "cd ./packages && vue create -n",
+    "newpackage": "node ./script/create_new_package.js",
     "release": "node ./script/release.js && lerna publish",
     "bootstrap": "lerna bootstrap --hoist"
   },
   "devDependencies": {
     "chalk": "^2.4.1",
     "execa": "^1.0.0",
+    "fs-extra": "^7.0.1",
     "lerna": "^3.4.3"
   }
 }

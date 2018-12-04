@@ -3,5 +3,10 @@
     "packages/*",
     "packages/@jbmasterlerna/*"
   ],
+  "command": {
+    "bootstrap": {
+      "nohoist": "bootstrap"
+    }
+  },
   "version": "independent"
 }
