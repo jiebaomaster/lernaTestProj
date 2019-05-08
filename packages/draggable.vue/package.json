@@ -1,6 +1,6 @@
 {
   "name": "@jbmasterlerna/cf-vue-draggable-test",
-  "version": "0.4.1",
+  "version": "0.4.2",
   "description": "Vue component allowing drag-and-drop sorting in sync with View-Model",
   "main": "lib/index.js",
   "scripts": {
