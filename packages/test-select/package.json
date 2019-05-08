@@ -1,6 +1,6 @@
 {
   "name": "@jbmasterlerna/test-select",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "scripts": {
     "serve": "vue-cli-service serve --open",
     "build": "webpack --config build/webpack.component.js --mode=production",
