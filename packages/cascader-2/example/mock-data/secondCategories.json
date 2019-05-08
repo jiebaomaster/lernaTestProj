@@ -1,0 +1,268 @@
+{
+  "success": true,
+  "model": [
+    {
+      "id": 60101,
+      "categoryEnglishName": "Dress",
+      "categoryChineseName": "连衣裙",
+      "isLeaf": true,
+      "tags": null,
+      "parentId": 601,
+      "children": null
+    },
+    {
+      "id": 60102,
+      "categoryEnglishName": "Skirts",
+      "categoryChineseName": "半身裙",
+      "isLeaf": true,
+      "tags": null,
+      "parentId": 601,
+      "children": null
+    },
+    {
+      "id": 60103,
+      "categoryEnglishName": "Blouses",
+      "categoryChineseName": "女式衬衫",
+      "isLeaf": true,
+      "tags": null,
+      "parentId": 601,
+      "children": null
+    },
+    {
+      "id": 60104,
+      "categoryEnglishName": "Sports Sets",
+      "categoryChineseName": "时尚休闲套装",
+      "isLeaf": true,
+      "tags": null,
+      "parentId": 601,
+      "children": null
+    },
+    {
+      "id": 60105,
+      "categoryEnglishName": "Lace & Chiffon Tops",
+      "categoryChineseName": "蕾丝衫、雪纺衫",
+      "isLeaf": true,
+      "tags": null,
+      "parentId": 601,
+      "children": null
+    },
+    {
+      "id": 60106,
+      "categoryEnglishName": "Women's T-Shirts",
+      "categoryChineseName": "女式T恤",
+      "isLeaf": true,
+      "tags": null,
+      "parentId": 601,
+      "children": null
+    },
+    {
+      "id": 60107,
+      "categoryEnglishName": "Women's Hoodies",
+      "categoryChineseName": "女式卫衣、绒衫",
+      "isLeaf": true,
+      "tags": null,
+      "parentId": 601,
+      "children": null
+    },
+    {
+      "id": 60108,
+      "categoryEnglishName": "Women's Sweaters",
+      "categoryChineseName": "女式毛衣",
+      "isLeaf": false,
+      "tags": null,
+      "parentId": 601,
+      "children": null
+    },
+    {
+      "id": 60109,
+      "categoryEnglishName": "Women‘s Knitted Shirts",
+      "categoryChineseName": "女式针织衫",
+      "isLeaf": true,
+      "tags": null,
+      "parentId": 601,
+      "children": null
+    },
+    {
+      "id": 60110,
+      "categoryEnglishName": "Women‘s Suits",
+      "categoryChineseName": "小西装",
+      "isLeaf": true,
+      "tags": null,
+      "parentId": 601,
+      "children": null
+    },
+    {
+      "id": 60111,
+      "categoryEnglishName": "Women‘s Waistcoats",
+      "categoryChineseName": "女式马甲",
+      "isLeaf": true,
+      "tags": null,
+      "parentId": 601,
+      "children": null
+    },
+    {
+      "id": 60112,
+      "categoryEnglishName": "Women's Tank Tops",
+      "categoryChineseName": "小背心/吊带/抹胸",
+      "isLeaf": true,
+      "tags": null,
+      "parentId": 601,
+      "children": null
+    },
+    {
+      "id": 60113,
+      "categoryEnglishName": "Women's Jackets",
+      "categoryChineseName": "女式夹克/棒球服",
+      "isLeaf": true,
+      "tags": null,
+      "parentId": 601,
+      "children": null
+    },
+    {
+      "id": 60114,
+      "categoryEnglishName": "Women's Woollen Coats",
+      "categoryChineseName": "女式毛呢外套",
+      "isLeaf": true,
+      "tags": null,
+      "parentId": 601,
+      "children": null
+    },
+    {
+      "id": 60115,
+      "categoryEnglishName": "Women's Wind Breakers",
+      "categoryChineseName": "女式风衣",
+      "isLeaf": true,
+      "tags": null,
+      "parentId": 601,
+      "children": null
+    },
+    {
+      "id": 60116,
+      "categoryEnglishName": "Women's Down Jackets",
+      "categoryChineseName": "女式羽绒服",
+      "isLeaf": false,
+      "tags": null,
+      "parentId": 601,
+      "children": null
+    },
+    {
+      "id": 60117,
+      "categoryEnglishName": "Women's Cotton Padded Coats",
+      "categoryChineseName": "女式棉衣",
+      "isLeaf": false,
+      "tags": null,
+      "parentId": 601,
+      "children": null
+    },
+    {
+      "id": 60118,
+      "categoryEnglishName": "Women's Leather Jackets",
+      "categoryChineseName": "女式皮衣",
+      "isLeaf": true,
+      "tags": null,
+      "parentId": 601,
+      "children": null
+    },
+    {
+      "id": 60119,
+      "categoryEnglishName": "Other Short Jackets",
+      "categoryChineseName": "其他短外套",
+      "isLeaf": true,
+      "tags": null,
+      "parentId": 601,
+      "children": null
+    },
+    {
+      "id": 60120,
+      "categoryEnglishName": "Fur Clothing",
+      "categoryChineseName": "皮草",
+      "isLeaf": true,
+      "tags": null,
+      "parentId": 601,
+      "children": null
+    },
+    {
+      "id": 60121,
+      "categoryEnglishName": "Women's Casual Pants",
+      "categoryChineseName": "女式休闲裤",
+      "isLeaf": false,
+      "tags": null,
+      "parentId": 601,
+      "children": null
+    },
+    {
+      "id": 60122,
+      "categoryEnglishName": "Women's Jeans",
+      "categoryChineseName": "女式牛仔裤",
+      "isLeaf": true,
+      "tags": null,
+      "parentId": 601,
+      "children": null
+    },
+    {
+      "id": 60123,
+      "categoryEnglishName": "Women‘s Leggings",
+      "categoryChineseName": "女式打底裤",
+      "isLeaf": false,
+      "tags": null,
+      "parentId": 601,
+      "children": null
+    },
+    {
+      "id": 60124,
+      "categoryEnglishName": "Large Size Women‘s Clothing",
+      "categoryChineseName": "大码女装",
+      "isLeaf": false,
+      "tags": null,
+      "parentId": 601,
+      "children": null
+    },
+    {
+      "id": 60125,
+      "categoryEnglishName": "Middle Age Women‘s Clothing ",
+      "categoryChineseName": "中老年女装",
+      "isLeaf": true,
+      "tags": null,
+      "parentId": 601,
+      "children": null
+    },
+    {
+      "id": 60126,
+      "categoryEnglishName": "Wedding Dresses & Cheongsam & Tang Suits",
+      "categoryChineseName": "婚纱礼服/旗袍唐装",
+      "isLeaf": false,
+      "tags": null,
+      "parentId": 601,
+      "children": null
+    },
+    {
+      "id": 60127,
+      "categoryEnglishName": "Couple & Uniform & Perfemance Clothing",
+      "categoryChineseName": "情侣/制服/表演服",
+      "isLeaf": false,
+      "tags": null,
+      "parentId": 601,
+      "children": null
+    },
+    {
+      "id": 60128,
+      "categoryEnglishName": "Other Women‘s Clothing",
+      "categoryChineseName": "女装其他",
+      "isLeaf": false,
+      "tags": null,
+      "parentId": 601,
+      "children": null
+    },
+    {
+      "id": 60129,
+      "categoryEnglishName": "Customerized Women‘s Clothing",
+      "categoryChineseName": "女装加工定制",
+      "isLeaf": true,
+      "tags": null,
+      "parentId": 601,
+      "children": null
+    }
+  ],
+  "firstErrorMessage": null,
+  "errorMessages": []
+}

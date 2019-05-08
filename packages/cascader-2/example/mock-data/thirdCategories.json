@@ -1,0 +1,43 @@
+{
+  "success": true,
+  "model": [
+    {
+      "id": 60108004,
+      "categoryEnglishName": "Sweater",
+      "categoryChineseName": "毛衣",
+      "isLeaf": true,
+      "tags": null,
+      "parentId": 60108,
+      "children": null
+    },
+    {
+      "id": 60108001,
+      "categoryEnglishName": "Cashmere Sweaters",
+      "categoryChineseName": "女式羊绒衫",
+      "isLeaf": true,
+      "tags": null,
+      "parentId": 60108,
+      "children": null
+    },
+    {
+      "id": 60108003,
+      "categoryEnglishName": "Sable Woolen Sweaters",
+      "categoryChineseName": "女式貂绒衫",
+      "isLeaf": true,
+      "tags": null,
+      "parentId": 60108,
+      "children": null
+    },
+    {
+      "id": 60108002,
+      "categoryEnglishName": "Woolen Sweaters",
+      "categoryChineseName": "女式羊毛衫",
+      "isLeaf": true,
+      "tags": null,
+      "parentId": 60108,
+      "children": null
+    }
+  ],
+  "firstErrorMessage": null,
+  "errorMessages": []
+}

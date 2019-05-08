@@ -1,0 +1,399 @@
+{
+  "success": true,
+  "model": [
+    {
+      "id": 601,
+      "categoryEnglishName": "Women's Clothing",
+      "categoryChineseName": "女装",
+      "isLeaf": false,
+      "tags": null
+    },
+    {
+      "id": 602,
+      "categoryEnglishName": "Clothing Accessories & Jewelry",
+      "categoryChineseName": "服饰配件、饰品",
+      "isLeaf": false,
+      "tags": null
+    },
+    {
+      "id": 603,
+      "categoryEnglishName": "Pet & Garden",
+      "categoryChineseName": "宠物及园艺",
+      "isLeaf": false,
+      "tags": null
+    },
+    {
+      "id": 604,
+      "categoryEnglishName": "Auto Accessories",
+      "categoryChineseName": "汽车用品",
+      "isLeaf": false,
+      "tags": null
+    },
+    {
+      "id": 605,
+      "categoryEnglishName": "Underwear",
+      "categoryChineseName": "内衣",
+      "isLeaf": false,
+      "tags": null
+    },
+    {
+      "id": 606,
+      "categoryEnglishName": "Lighting",
+      "categoryChineseName": "照明工业",
+      "isLeaf": false,
+      "tags": null
+    },
+    {
+      "id": 607,
+      "categoryEnglishName": "Men's Clothing",
+      "categoryChineseName": "男装",
+      "isLeaf": false,
+      "tags": null
+    },
+    {
+      "id": 608,
+      "categoryEnglishName": "Safety & Protection",
+      "categoryChineseName": "安全、防护",
+      "isLeaf": false,
+      "tags": null
+    },
+    {
+      "id": 609,
+      "categoryEnglishName": "Office & Education",
+      "categoryChineseName": "办公、文教",
+      "isLeaf": false,
+      "tags": null
+    },
+    {
+      "id": 610,
+      "categoryEnglishName": "Electronics",
+      "categoryChineseName": "数码、电脑",
+      "isLeaf": false,
+      "tags": null
+    },
+    {
+      "id": 611,
+      "categoryEnglishName": "Children'S Clothes",
+      "categoryChineseName": "童装",
+      "isLeaf": false,
+      "tags": null
+    },
+    {
+      "id": 612,
+      "categoryEnglishName": "Shoes",
+      "categoryChineseName": "鞋",
+      "isLeaf": false,
+      "tags": null
+    },
+    {
+      "id": 613,
+      "categoryEnglishName": "Bags",
+      "categoryChineseName": "箱包皮具",
+      "isLeaf": false,
+      "tags": null
+    },
+    {
+      "id": 614,
+      "categoryEnglishName": "Daily Necessities",
+      "categoryChineseName": "日用百货",
+      "isLeaf": false,
+      "tags": null
+    },
+    {
+      "id": 615,
+      "categoryEnglishName": "Mother & Baby Products",
+      "categoryChineseName": "母婴用品",
+      "isLeaf": false,
+      "tags": null
+    },
+    {
+      "id": 616,
+      "categoryEnglishName": "Home Decoration Products",
+      "categoryChineseName": "家居饰品",
+      "isLeaf": false,
+      "tags": null
+    },
+    {
+      "id": 617,
+      "categoryEnglishName": "Towel",
+      "categoryChineseName": "毛巾、巾类",
+      "isLeaf": false,
+      "tags": null
+    },
+    {
+      "id": 618,
+      "categoryEnglishName": "Bedding",
+      "categoryChineseName": "床上用品",
+      "isLeaf": false,
+      "tags": null
+    },
+    {
+      "id": 619,
+      "categoryEnglishName": "Beauty & Skin Care & Make-Up",
+      "categoryChineseName": "美容护肤/彩妆",
+      "isLeaf": false,
+      "tags": null
+    },
+    {
+      "id": 620,
+      "categoryEnglishName": "Household Appliances",
+      "categoryChineseName": "家用电器",
+      "isLeaf": false,
+      "tags": null
+    },
+    {
+      "id": 621,
+      "categoryEnglishName": "Home Improvement & Building Materials",
+      "categoryChineseName": "家装、建材",
+      "isLeaf": false,
+      "tags": null
+    },
+    {
+      "id": 622,
+      "categoryEnglishName": "Crafts & Gifts",
+      "categoryChineseName": "工艺品、礼品",
+      "isLeaf": false,
+      "tags": null
+    },
+    {
+      "id": 623,
+      "categoryEnglishName": "Auto Parts & Accessories",
+      "categoryChineseName": "汽摩及配件",
+      "isLeaf": false,
+      "tags": null
+    },
+    {
+      "id": 624,
+      "categoryEnglishName": "Food & Drink",
+      "categoryChineseName": "食品、饮料",
+      "isLeaf": false,
+      "tags": null
+    },
+    {
+      "id": 625,
+      "categoryEnglishName": "Sports Equipment",
+      "categoryChineseName": "运动装备",
+      "isLeaf": false,
+      "tags": null
+    },
+    {
+      "id": 626,
+      "categoryEnglishName": "Sportswear",
+      "categoryChineseName": "运动服饰",
+      "isLeaf": false,
+      "tags": null
+    },
+    {
+      "id": 627,
+      "categoryEnglishName": "Personal Care & Home Care",
+      "categoryChineseName": "个护/家清",
+      "isLeaf": false,
+      "tags": null
+    },
+    {
+      "id": 628,
+      "categoryEnglishName": "Sex & Health Products",
+      "categoryChineseName": "性保健品",
+      "isLeaf": false,
+      "tags": null
+    },
+    {
+      "id": 629,
+      "categoryEnglishName": "Catering & Fresh Products",
+      "categoryChineseName": "餐饮生鲜",
+      "isLeaf": false,
+      "tags": null
+    },
+    {
+      "id": 630,
+      "categoryEnglishName": "Electronic Component",
+      "categoryChineseName": "电子元器件",
+      "isLeaf": false,
+      "tags": null
+    },
+    {
+      "id": 631,
+      "categoryEnglishName": "Advertising & Exhibition Equipment",
+      "categoryChineseName": "传媒、广电",
+      "isLeaf": false,
+      "tags": null
+    },
+    {
+      "id": 632,
+      "categoryEnglishName": "Packaging",
+      "categoryChineseName": "包装",
+      "isLeaf": false,
+      "tags": null
+    },
+    {
+      "id": 633,
+      "categoryEnglishName": "Paper Industry",
+      "categoryChineseName": "纸业",
+      "isLeaf": false,
+      "tags": null
+    },
+    {
+      "id": 634,
+      "categoryEnglishName": "Electrical & Electronics",
+      "categoryChineseName": "电工电气",
+      "isLeaf": false,
+      "tags": null
+    },
+    {
+      "id": 635,
+      "categoryEnglishName": "Textile & Leather",
+      "categoryChineseName": "纺织、皮革",
+      "isLeaf": false,
+      "tags": null
+    },
+    {
+      "id": 636,
+      "categoryEnglishName": "Machinery & Industry Equipment",
+      "categoryChineseName": "机械及行业设备",
+      "isLeaf": false,
+      "tags": null
+    },
+    {
+      "id": 637,
+      "categoryEnglishName": "Hardware Tools",
+      "categoryChineseName": "五金、工具",
+      "isLeaf": false,
+      "tags": null
+    },
+    {
+      "id": 638,
+      "categoryEnglishName": "Chemical Industry",
+      "categoryChineseName": "化工",
+      "isLeaf": false,
+      "tags": null
+    },
+    {
+      "id": 639,
+      "categoryEnglishName": "Rubber & Plastic",
+      "categoryChineseName": "橡塑",
+      "isLeaf": false,
+      "tags": null
+    },
+    {
+      "id": 640,
+      "categoryEnglishName": "Environmental",
+      "categoryChineseName": "环保",
+      "isLeaf": false,
+      "tags": null
+    },
+    {
+      "id": 641,
+      "categoryEnglishName": "Instruments & Apparatus",
+      "categoryChineseName": "仪器仪表",
+      "isLeaf": false,
+      "tags": null
+    },
+    {
+      "id": 642,
+      "categoryEnglishName": "Steel",
+      "categoryChineseName": "钢铁",
+      "isLeaf": false,
+      "tags": null
+    },
+    {
+      "id": 643,
+      "categoryEnglishName": "Communication & Transportation",
+      "categoryChineseName": "交通运输",
+      "isLeaf": false,
+      "tags": null
+    },
+    {
+      "id": 644,
+      "categoryEnglishName": "Energy",
+      "categoryChineseName": "能源",
+      "isLeaf": false,
+      "tags": null
+    },
+    {
+      "id": 645,
+      "categoryEnglishName": "Agriculture",
+      "categoryChineseName": "农业",
+      "isLeaf": false,
+      "tags": null
+    },
+    {
+      "id": 646,
+      "categoryEnglishName": "Communication Products",
+      "categoryChineseName": "通信产品",
+      "isLeaf": false,
+      "tags": null
+    },
+    {
+      "id": 647,
+      "categoryEnglishName": "Toy",
+      "categoryChineseName": "玩具",
+      "isLeaf": false,
+      "tags": null
+    },
+    {
+      "id": 648,
+      "categoryEnglishName": "Metallurgical Mineral",
+      "categoryChineseName": "冶金矿产",
+      "isLeaf": false,
+      "tags": null
+    },
+    {
+      "id": 649,
+      "categoryEnglishName": "Medicine & Maintenance",
+      "categoryChineseName": "医药、保养",
+      "isLeaf": false,
+      "tags": null
+    },
+    {
+      "id": 650,
+      "categoryEnglishName": "Printing",
+      "categoryChineseName": "印刷",
+      "isLeaf": false,
+      "tags": null
+    },
+    {
+      "id": 651,
+      "categoryEnglishName": "Process",
+      "categoryChineseName": "加工",
+      "isLeaf": false,
+      "tags": null
+    },
+    {
+      "id": 652,
+      "categoryEnglishName": "Proxy",
+      "categoryChineseName": "代理",
+      "isLeaf": false,
+      "tags": null
+    },
+    {
+      "id": 653,
+      "categoryEnglishName": "Machine Tool",
+      "categoryChineseName": "机床",
+      "isLeaf": false,
+      "tags": null
+    },
+    {
+      "id": 654,
+      "categoryEnglishName": "Business Services",
+      "categoryChineseName": "商务服务",
+      "isLeaf": false,
+      "tags": null
+    },
+    {
+      "id": 655,
+      "categoryEnglishName": "Project Cooperation",
+      "categoryChineseName": "项目合作",
+      "isLeaf": false,
+      "tags": null
+    },
+    {
+      "id": 656,
+      "categoryEnglishName": "Used Equipment",
+      "categoryChineseName": "二手设备转让",
+      "isLeaf": false,
+      "tags": null
+    }
+  ],
+  "firstErrorMessage": null,
+  "errorMessages": []
+}
